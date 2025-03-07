@@ -1,0 +1,26 @@
+{
+  "application": {
+    "name": "TestApp",
+    "version": "1.0.0",
+    "users": [
+      {
+        "email": "cks@gmail.com",
+        "password": "cks@123",
+        "roles": ["admin", "editor"]
+      },
+      {
+        "email": "user@gmail.com",
+        "password": "user@123",
+        "roles": ["viewer"]
+      }
+    ],
+    "settings": {
+      "theme": "dark",
+      "notifications_enabled": true,
+      "preferences": {
+        "language": "English",
+        "timezone": "EST"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "app_metadata": {
+    "app_name": "MyApplication",
+    "version": "2.0.0",
+    "release_date": "2024-12-10",
+    "supported_platforms": ["web", "mobile"]
+  },
+  "users": [
+    {
+      "user_id": "1",
+      "profile": {
+        "first_name": "Alice",
+        "last_name": "Smith",
+        "contact": {
+          "email": "alice@gmail.com",
+          "phone": "123-456-7890"
+        }
+      },
+      "roles": ["admin"],
+      "last_login": "2024-12-09T15:30:00Z",
+      "subscriptions": [
+        {
+          "type": "premium",
+          "valid_until": "2025-12-09"
+        },
+        {
+          "type": "newsletter",
+          "valid_until": "2024-12-31"
+        }
+      ]
+    },
+    {
+      "user_id": "2",
+      "profile": {
+        "first_name": "Bob",
+        "last_name": "Johnson",
+        "contact": {
+          "email": "bob@gmail.com",
+          "phone": "987-654-3210"
+        }
+      },
+      "roles": ["editor", "viewer"],
+      "last_login": "2024-12-08T10:00:00Z",
+      "subscriptions": []
+    }
+  ],
+  "settings": {
+    "max_users": 1000,
+    "features": {
+      "multi_language_support": true,
+      "beta_features": ["dark_mode", "real-time_notifications"]
+    }
+  }
+}

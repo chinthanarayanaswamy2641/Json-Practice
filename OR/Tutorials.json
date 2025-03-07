@@ -1,0 +1,28 @@
+{
+
+      "Login_Page":{
+      
+            "email"       :         "cks@gmail.com",
+            "password"    :         "cks@123"
+
+      },
+      
+      "Register_Page":{
+      
+           "firstName"    :         "Vaishnav",
+           "lastName"     :         "Gattu",
+           "email"        :         "vaishnav264@gamil.com",
+           "telePhone"    :         "12345",
+           "password"     :         "vaishnav@123",
+       "confirmPassword"  :         "vaishnav@123"
+      
+      },
+      
+      "Search_Page":{
+      
+           "firstProduct"  :          "IPhone"
+           
+        }
+
+
+}
